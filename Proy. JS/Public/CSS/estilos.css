@@ -1,0 +1,22 @@
+.img {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.img img {
+  width: 100%;
+  opacity: 0.5;
+  display: block;
+}
+
+.img h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black;
+  font-size: 2em;
+  margin: 0;
+}
